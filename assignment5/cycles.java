@@ -24,6 +24,18 @@ class SortByArrayLength implements Comparator<ArrayList<Integer>> {
 // 	}
 // }
 
+class Edge {
+	private Integer u;
+	private Integer v;
+
+	Edge(Integer u, Integer v) {
+		this.u = u;
+		this.v = v;
+	}
+
+
+}
+
 class Graph {
 
 	private int noOfVertex;
